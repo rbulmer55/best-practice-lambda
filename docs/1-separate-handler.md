@@ -1,5 +1,7 @@
 # 1 — Separate Handler from Business Logic
 
+Use code architecutre patterns such as hexagonal architecutre and the concept of ports, adapters and domain use cases to distingush distinct boundaries between busines logic and tooling.
+
 Why it matters
 
 - Keeps Lambda handlers thin and focused on event/response translation.

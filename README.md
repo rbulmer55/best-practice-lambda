@@ -24,96 +24,26 @@ The guidance emphasizes pragmatic changes (e.g., connection caching, short timeo
 ### Application
 
 - [1 — Separate Handler from Business Logic](./docs/1-separate-handler.md)
-- [4 — Minify Packages](./docs/4-minify-packages.md)
+- [2 — Minify Packages](./docs/4-minify-packages.md)
 - [3 — Memory Sizing and CPU](./docs/3-memory-sizing.md)
-- [Graceful error & timeout handling](./docs/graceful-error-timeout-handling.md)
+- [4 - Graceful error & timeout handling](./docs/graceful-error-timeout-handling.md)
 - [5 — Max Idle Time](./docs/5-max-idle-time.md)
-- [Local simulation](./docs/local-simulation.md)
-- [Monitor & log](./docs/monitor-and-log.md)
+- [6 - Local simulation](./docs/local-simulation.md)
+- [7 - Monitor & log](./docs/monitor-and-log.md)
 
 ### Database
 
-- [2 — Connection Management (Caching)](./docs/2-connection-management.md)
-- [Native driver](./docs/native-driver.md)
-- [Indexed queries & projection](./docs/indexed-queries-projection.md)
-- [Limit payloads / response](./docs/limit-payloads-response.md)
-- [$currentOp & diagnostics](./docs/currentop-diagnostics.md)
-- [PrivateLink & VPC](./docs/privatelink-vpc.md)
+- [8 — Connection Management (Caching)](./docs/2-connection-management.md)
+- [9 - Native driver](./docs/native-driver.md)
+- [10 - Indexed queries & projection](./docs/indexed-queries-projection.md)
+- [11 - Limit payloads / response](./docs/limit-payloads-response.md)
+- [12 - $currentOp & diagnostics](./docs/currentop-diagnostics.md)
+- [13 - PrivateLink & VPC](./docs/privatelink-vpc.md)
 
 ### Configuration & Deployment
 
-- [Environment variables & Secrets](./docs/environment-variables-secrets.md)
-- [Function URLs & API Gateway](./docs/function-urls-api-gateway.md)
-- [6 — Provisioned Concurrency](./docs/6-provisioned-concurrency.md)
-- [Warm-up & Provisioned concurrency](./docs/warmup-provisioned-concurrency.md)
-- [Short timeouts](./docs/short-timeouts.md)
-
-# Separate Handler from Business Logic
-
-https://docs.aws.amazon.com/lambda/latest/dg/typescript-handler.html#typescript-best-practices
-
-Hexagonal architecutre with ports and adapters - Here we have a simple adaptation with Primary (source) dapters -> Use case -> Secondary (target) Adapter.
-
-# Connection management (caching)
-
-No Cache
-
-```
-
-```
-
-# increase memory size
-
-# Minify packages
-
-# Max idle time
-
-# Provisioned Concurrency
-
-# Environment variables/Secrets
-
-Secure/configurable deployments
-
-# Function URLs/API Gateway
-
-Simpler, minimal infrastructure
-
-# Native driver
-
-Faster cold start/deployment
-
-# Indexed queries/projection
-
-Speed and network efficiency
-
-# Graceful error/timeout handling
-
-Reliable user experience
-
-# Short timeouts
-
-No “hanging” Lambdas
-
-# Monitor & log
-
-Troubleshoot and optimize
-
-# PrivateLink/VPC
-
-Improved security and latency
-
-# Limit payloads/response
-
-Stay within Lambda limits
-
-# Local simulation
-
-Confident shipping
-
-# Warm-up/Provisioned concurrency
-
-Near-instant responses
-
-# $currentOp & diagnostics
-
-Proactive monitoring
+- [14 - Environment variables & Secrets](./docs/environment-variables-secrets.md)
+- [15 - Function URLs & API Gateway](./docs/function-urls-api-gateway.md)
+- [16 — Provisioned Concurrency](./docs/6-provisioned-concurrency.md)
+- [17 - Warm-up & Provisioned concurrency](./docs/warmup-provisioned-concurrency.md)
+- [18 - Short timeouts](./docs/short-timeouts.md)
