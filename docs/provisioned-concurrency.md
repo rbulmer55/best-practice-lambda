@@ -1,4 +1,4 @@
-# 6 — Provisioned Concurrency
+# Provisioned Concurrency
 
 Why it matters
 

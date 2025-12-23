@@ -1,4 +1,4 @@
-# 3 — Memory Sizing and CPU
+# Memory Sizing and CPU
 
 Why it matters
 

@@ -1,4 +1,4 @@
-# 5 — Max Idle Time
+# Max Idle Time
 
 Why it matters
 

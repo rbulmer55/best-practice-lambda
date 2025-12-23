@@ -1,4 +1,4 @@
-# 2 — Connection Management (Caching)
+# Connection Management (Caching)
 
 Most databases limit the number of concurrent connections, and Lambda functions are ephemeral by design. Opening a new connection on every invocation therefore causes two main problems:
 

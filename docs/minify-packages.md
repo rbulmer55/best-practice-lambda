@@ -1,4 +1,4 @@
-# 4 — Minify Packages
+# Minify Packages
 
 Why it matters
 

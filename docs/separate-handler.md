@@ -1,4 +1,4 @@
-# 1 — Separate Handler from Business Logic
+# Separate Handler from Business Logic
 
 Use code architecture patterns such as hexagonal architecture and the concept of ports, adapters and domain use cases to distinguish distinct boundaries between business logic and tooling.
 
