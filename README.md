@@ -23,17 +23,17 @@ The guidance emphasizes pragmatic changes (e.g., connection caching, short timeo
 
 ### Application
 
-- [1 — Separate Handler from Business Logic](./docs/1-separate-handler.md)
-- [2 — Minify Packages](./docs/4-minify-packages.md)
-- [3 — Memory Sizing and CPU](./docs/3-memory-sizing.md)
+- [1 — Separate Handler from Business Logic](./docs/separate-handler.md)
+- [2 — Minify Packages](./docs/minify-packages.md)
+- [3 — Memory Sizing and CPU](./docs/memory-sizing.md)
 - [4 - Graceful error & timeout handling](./docs/graceful-error-timeout-handling.md)
-- [5 — Max Idle Time](./docs/5-max-idle-time.md)
+- [5 — Max Idle Time](./docs/max-idle-time.md)
 - [6 - Local simulation](./docs/local-simulation.md)
 - [7 - Monitor & log](./docs/monitor-and-log.md)
 
 ### Database
 
-- [8 — Connection Management (Caching)](./docs/2-connection-management.md)
+- [8 — Connection Management (Caching)](./docs/connection-management.md)
 - [9 - Native driver](./docs/native-driver.md)
 - [10 - Indexed queries & projection](./docs/indexed-queries-projection.md)
 - [11 - Limit payloads / response](./docs/limit-payloads-response.md)
@@ -44,6 +44,6 @@ The guidance emphasizes pragmatic changes (e.g., connection caching, short timeo
 
 - [14 - Environment variables & Secrets](./docs/environment-variables-secrets.md)
 - [15 - Function URLs & API Gateway](./docs/function-urls-api-gateway.md)
-- [16 — Provisioned Concurrency](./docs/6-provisioned-concurrency.md)
+- [16 — Provisioned Concurrency](./docs/provisioned-concurrency.md)
 - [17 - Warm-up & Provisioned concurrency](./docs/warmup-provisioned-concurrency.md)
 - [18 - Short timeouts](./docs/short-timeouts.md)
