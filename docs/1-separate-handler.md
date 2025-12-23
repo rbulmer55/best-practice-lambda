@@ -1,6 +1,6 @@
 # 1 — Separate Handler from Business Logic
 
-Use code architecutre patterns such as hexagonal architecutre and the concept of ports, adapters and domain use cases to distingush distinct boundaries between busines logic and tooling.
+Use code architecture patterns such as hexagonal architecture and the concept of ports, adapters and domain use cases to distinguish distinct boundaries between business logic and tooling.
 
 Why it matters
 
@@ -22,3 +22,7 @@ Examples in this repo
 Notes
 
 - See AWS guidance: https://docs.aws.amazon.com/lambda/latest/dg/typescript-handler.html#typescript-best-practices
+
+Useful resources:
+
+- Clean Code Example: https://github.com/leegilmorecode/clean-serverless-code.git
